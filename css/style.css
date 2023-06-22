@@ -684,7 +684,29 @@ img {
     fill: transparent;
 }
 
+.privacy-link {
+    color: var(--accent-color);
+}
 
+.modal-form-submit {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--hero-color);
+    cursor: pointer;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
 
 .is-hidden {
     opacity: 0;
