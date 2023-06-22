@@ -672,7 +672,7 @@ img {
     color: var(--link-icon-color);
 }
 
-.elements {
+.check-box {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -683,6 +683,8 @@ img {
     justify-content: center;
     fill: transparent;
 }
+
+
 
 .is-hidden {
     opacity: 0;
