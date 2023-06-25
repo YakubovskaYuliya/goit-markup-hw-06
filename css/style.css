@@ -665,11 +665,13 @@ img {
     margin-bottom: 24px;
 }
 
+
 .conditions {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--link-icon-color);
+
 }
 
 .check-box {
@@ -682,6 +684,7 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .privacy-link {
@@ -708,8 +711,13 @@ img {
     position: absolute;
     bottom: 10px;
     margin-bottom: 10px;
+    transition: transform 0.3s;
 
+}
 
+.modal-form-submit:hover {
+    transform: scale(1.1);
+    ;
 }
 
 .check:checked+.conditions .check-box {
